@@ -1,0 +1,74 @@
+-> ou pra instala direto (react sem next)
+. npx create-react-app nome_do_projeto --template typescript
+-> com style component
+. npm install styled-components
+-> com typescript
+. npm install -D @types/styled-components
+->lidar com paginação no react
+. npm install react-router-dom
+- os types do router
+. npm install -D @types/react-router-dom
+
+
+->gera hash aleatorio ex id aleatorio
+npm install uuid
+
+////////////////////////
+
+-> instala a versão mais nova no next.js
+. npm install g create-next-app
+
+-> cria o projeto next.js 
+. npx create-next-app
+
+--depois vem uma serie de perguntas
+1-Nome do projeto?: /* preferencia minusculo */
+2-voce quer usar typescript?: sim /* sim ou nao */
+3-voce quer usar ESLint nesse projeto?: não /* sim ou nao */
+4-voce quer usar Tailwind CSS nesse projeto: sim /* sim ou nao */
+5-suar a pasta src/? sim /* sim ou nao */
+6-usar App Router?: sim /* sim ou nao */
+7-voce quer fazer alguma alteração no Import alias? nao /* sim ou nao */
+
+-> roda o site
+. npm run dev
+
+-> biblioteca Axios, complemento do fetch para requisiçoes apis
+. npm i axios
+
+
+-> biblioteca tanstack/react query e um complemento para fazer fetch e axios em apis 
+. npm i @tanstack/react-query
+
+-> (opcional) um complemento pra ver o que ta acontecendo no tanstack/react-query
+. npm i @tanstack/react-query-devtools
+
+-> biblioteca pra fazer formularios de forma mais pratica
+. npm i react-hook-form
+
+-> biblioteca zod complementa com o react-hook-form
+. npm i zod
+
+-> biblioteca pra pegar file, musica, img etc..., e soltar no capo pra fazer upload
+. npm i react-dropzone
+
+->icones para react
+. npm i @fortawesome/react-fontawesome @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/free-regular-svg-icons @fortawesome/free-brands-svg-icons
+
+--- site da instalação da biblioteca shadcn ---
+https://ui.shadcn.com/docs/installation
+
+-- shadcn/ui é uma biblioteca de interface de usuário (UI) 
+para React, focada em acessibilidade, personalização e 
+compatibilidade com Tailwind CSS. Ele fornece componentes 
+pré-construídos como botões, inputs, modais e cards, que 
+podem ser editados diretamente no projeto. --
+
+
+--- REDIRIRECIONAMENTO PARA OUTRAS PAGINAS ---
+use os componente
+<Link></Link> (e usado no proprio componet)
+useRouter hook (usado apenas emm CLIENT COMPONETS)
+redirect function (usado apenas em SERVER COMPONENTS)
+
+
