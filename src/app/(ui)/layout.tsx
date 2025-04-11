@@ -25,7 +25,7 @@ const Layout = ({children}: Props) => {
                         <NavItem
                             href="/home"
                             icon={faHouse}
-                            label="Pagina"
+                            label="Pagina inicial"
                         />    
                         <NavItem
                             href="/profile"
