@@ -1,8 +1,10 @@
 import { user } from "@/data/user";
 import { redirect } from "next/navigation";
 
-export default function Page() {
+const Page = () => {
     redirect('/' +  user.slug);
 
     return null
 }
+
+export default Page;
